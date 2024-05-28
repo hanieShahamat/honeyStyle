@@ -1,0 +1,215 @@
+  .panel{
+    display: grid;
+    grid-template-columns: 2fr 11fr;
+  }
+  .panel-min{
+    display: grid;
+    grid-template-columns: 1fr 13fr;
+  }
+  .menu {
+    width: 100%;
+    min-height: 800px;
+    background-color: white ;
+  }
+  .main-box{
+    width: 100%;
+  }
+  
+  .main-box header {
+    background-color: white ;
+    font-size: 1em;
+  }
+  
+  /* navigation  */
+  .main-box header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 2px solid #e0dddd;
+  }
+  .main-box header nav .right {
+    display: flex;
+    align-items: center;
+  }
+  .main-box header nav .right i {
+    font-size: 1.8em;
+    cursor: pointer;
+    color: #0d485be8;
+  }
+  .main-box header nav .right .search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0dddd;
+    border-radius: 5px;
+    margin-right: 15px;
+    padding: 8px;
+    padding-left: 11px;
+    background-color: #fbfafa;
+  }
+  .main-box header nav .right .search input {
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .main-box header nav .right .search i {
+    font-size: 1.2em;
+    color: #d5d4d4;
+  }
+  .main-box header nav .left a {
+    margin-right: 20px;
+    color: #0d485be8;
+  }
+  .main-box header nav .left a:hover {
+    color: #207592e8;
+  }
+  
+  /* header message  */
+  .main-box header .header-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .main-box header .header-message h3 {
+    color: #555;
+    font-size: 1.1em;
+  }
+  .main-box header .header-message a {
+    background-color: #fbfafa;
+    border: 1px solid #e0dddd;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color:#666;
+  }
+  
+  /* holder */
+  .holder {
+    background-color: #eaecec;
+    padding: 30px;
+  }
+
+  /* mini-cards */
+  .mini-card-report {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+  }
+  .mini-card-report .right {
+    background-color: #f3f4f4;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 25px 15px;
+  }
+  .mini-card-report .right i {
+    color: #0d485be8;
+  }
+  .mini-card-report .left {
+    background-color: white;
+    padding: 10px 40px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mini-card-report .left span:first-child {
+    color:#0d485be8;
+  }
+  
+  /* revenue box  */
+  .revenue-box {
+    margin-top: 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  }
+  .revenue-box .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .revenue-box .head .left {
+    display: flex;
+    align-items: center;
+  }
+  .revenue-box .head .left i {
+    color: #0d485be8;
+    margin-right: 15px;
+  }
+  .revenue-box .content {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* menu */
+  .menu {
+    font-size: 1em;
+  }
+
+  .menu .user-info {
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .menu .user-info .img-name {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu .user-info .img-name img {
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #e0dddd;
+  }
+
+  .menu .user-info .img-name .name {
+    font-size: .9em;
+    color: #444;
+    margin-right: 10px;
+  }
+
+  .menu .user-info .img-name i {
+    margin-right: 5px;
+    color: #0d485be8;
+  }
+
+  .menu .user-info .details {
+    padding: 10px 5px;
+  }
+  .menu .user-info .details .details-item span {
+    font-size: .8em;
+    color: #555;
+  }
+  
+  /* menu-btns */
+  .menu-btns .item {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 30px 20px 0px;
+  }
+
+  .menu-btns .item:hover {
+    background-color: rgba(239, 242, 243, 0.6);
+  }
+
+  .menu-btns .item i {
+    font-size: 1.4em;
+    color: #0d485be8;
+  }
+
+  .menu-btns .item span {
+    color: #444;
+    margin-right: 15px;
+  }
+  .menu-btns .item-active span {
+   color: #0d485be8; 
+  }
+  
+  
