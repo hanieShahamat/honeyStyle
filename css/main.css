@@ -14,3 +14,22 @@ body{
 a{
     text-decoration: none;
 }
+
+/* dragble Tshirt list */
+.owl-stage-outer{
+    direction: ltr;
+}
+.dragble-Tshirt-list img{
+    width: 100% !important;
+    margin: auto;
+}
+.dragble-Tshirt-list .title{
+    padding: 0px 30px;
+    padding-bottom: 20px;
+}
+.dragble-Tshirt-list .title span{
+    font-size: 1.2em;
+    color: #444;
+    border-bottom: 1.5px solid #8f0817e0;
+    font-weight: bold;
+}
